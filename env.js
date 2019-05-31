@@ -95,7 +95,7 @@ function draw() {
     }
 
     if (mazeFinish) {
-        if (showPath) {
+        if (showPath && false) {  // removing showpath
             push();
             beginShape();
             noFill();
