@@ -8,5 +8,6 @@ Take the ball to the end (green circle) of the maze from the start (red circle).
 
 #### How to play:
 * Use arrow keys to control the ball.
+* Press 'p' to show the path.
 * Press 'm' to show the maze.
 * Press 'r' to reset the game.
