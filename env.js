@@ -95,7 +95,7 @@ function draw() {
     }
 
     if (mazeFinish) {
-        if (showPath && false) {  // removing showpath
+        if (showPath) {
             push();
             beginShape();
             noFill();
@@ -135,7 +135,7 @@ function draw() {
 
 function keyPressed() {
     if (key == "p") {
-        showPath = !showPath;
+        showPath = true;
     }
     if (key == "m") {
         showMaze = !showMaze;
